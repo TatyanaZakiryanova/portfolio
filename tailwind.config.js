@@ -15,8 +15,8 @@ export default {
 
         text: {
           light: 'rgb(240, 240, 240)',
-          default: 'rgb(60, 60, 60)',
-          dark: 'rgb(255, 255, 255)',
+          default: 'rgb(255, 255, 255)',
+          dark: 'rgb(60, 60, 60)',
         },
 
         button: {
