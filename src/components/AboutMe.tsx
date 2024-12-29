@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <div className="mx-auto p-10" id="about">
+    <div className="mx-auto p-10">
       <div className="text-text-dark">
         <h2 className="mb-4 text-center text-3xl">Привет</h2>
         <div className="flex items-start">
@@ -15,7 +15,11 @@ const AboutMe = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="src/assets/github-mark.svg" alt="GitHub" className="h-20 w-20" />
+              <img
+                src="src/assets/github-mark.svg"
+                alt="GitHub"
+                className="h-20 w-20 hover:animate-[wiggle_1s_ease-in-out_infinite]"
+              />
             </a>
             <span className="text-sm">Мой Github</span>
           </div>

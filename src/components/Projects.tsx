@@ -1,6 +1,6 @@
 const Projects = () => {
   return (
-    <div className="mx-auto p-10" id="projects">
+    <div className="mx-auto p-10">
       <div className="flex items-center space-x-6 text-text-dark">
         <div>
           <h2 className="text-center text-3xl">Проекты</h2>
