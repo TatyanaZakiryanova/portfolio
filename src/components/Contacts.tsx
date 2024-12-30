@@ -1,14 +1,19 @@
 const Contacts = () => {
   return (
     <div className="mx-auto p-10 text-text-dark">
-      <div className="flex items-center">
+      <div className="flex items-center justify-center">
         <div>
           <h2 className="text-center text-3xl">Контакты</h2>
-          <p className="mt-2 text-xl">
-            Я фронтенд-разработчик, увлекаюсь программированием и постоянно стремлюсь улучшать свои
-            навыки. В работе мне важно не только создавать качественный код, но и обеспечивать
-            отличное взаимодействие с пользователем.
-          </p>
+          <div className="space-around mt-6 flex gap-10">
+            <div className="flex items-center justify-center gap-1">
+              <img src="src/assets/icons/phone-icon.svg" alt="Phone" className="h-8 w-8" />
+              <div>+7 919 697 02 54</div>
+            </div>
+            <div className="flex items-center justify-center gap-1">
+              <img src="src/assets/icons/mail-icon.svg" alt="E-mail" className="h-10 w-10" />
+              <div>taZakiryanova@mail.ru</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

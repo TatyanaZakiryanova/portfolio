@@ -1,4 +1,5 @@
 import { useState } from 'react';
+
 import { PROJECTS } from '../constants';
 
 const Projects = () => {
@@ -22,7 +23,7 @@ const Projects = () => {
               <div>
                 <h3 className="text-xl font-bold">{project.title}</h3>
                 <p>{project.description}</p>
-                <p className="mt-2 font-semibold">{project.technologies}</p>
+                <p className="mt-2 font-bold">{project.technologies}</p>
                 <button onClick={() => toggleOpenDetails(index)}>
                   <img
                     src={`${activeIndex === index ? `/src/assets/icons/arrow-up.svg` : '/src/assets/icons/arrow-down.svg'}`}
@@ -41,7 +42,7 @@ const Projects = () => {
                       className="h-14 w-14 hover:animate-[wiggle_1s_ease-in-out_infinite]"
                     >
                       <img src="src/assets/icons/github-icon.svg" />
-                      <span>Github</span>
+                      <span className="text-xs">Github</span>
                     </a>
                   </div>
                   <div className="flex flex-col text-center">
@@ -52,7 +53,7 @@ const Projects = () => {
                       className="h-14 w-14 hover:animate-[wiggle_1s_ease-in-out_infinite]"
                     >
                       <img src="src/assets/icons/site-icon.svg" />
-                      <span>Сайт</span>
+                      <span className="text-xs">Сайт</span>
                     </a>
                   </div>
                 </div>

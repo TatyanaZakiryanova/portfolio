@@ -7,7 +7,7 @@ const Skills = () => {
     <div className="mx-auto p-10 text-text-dark">
       <h2 className="text-center text-3xl">Навыки</h2>
       <div className="flex items-center justify-center">
-        <div className="mt-2 flex flex-wrap items-center justify-center gap-6">
+        <div className="mt-20 flex flex-wrap items-center justify-center gap-6">
           {ICONS.map((icon) => (
             <div key={icon.alt} className="group flex flex-col items-center gap-4">
               <img key={icon.alt} src={icon.src} className={iconClasses} alt={icon.alt} />
