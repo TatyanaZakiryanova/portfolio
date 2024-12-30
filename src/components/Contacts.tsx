@@ -1,7 +1,7 @@
 const Contacts = () => {
   return (
-    <div className="mx-auto p-10">
-      <div className="flex items-center space-x-6 text-text-dark">
+    <div className="mx-auto p-10 text-text-dark">
+      <div className="flex items-center">
         <div>
           <h2 className="text-center text-3xl">Контакты</h2>
           <p className="mt-2 text-xl">

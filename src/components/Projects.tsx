@@ -9,12 +9,12 @@ const Projects = () => {
   };
 
   return (
-    <div className="mx-auto p-10">
+    <div className="mx-auto p-10 text-text-dark">
       <h2 className="text-center text-3xl">Проекты</h2>
-      <div className="flex items-center text-text-dark">
+      <div className="flex items-center">
         <div className="mt-6 flex flex-col gap-12">
           {PROJECTS.map((project, index) => (
-            <div key={project.title} className="flex gap-4">
+            <div key={project.title} className="flex gap-6">
               <img
                 src={project.previewSrc}
                 className="h-[260px] w-[600px] flex-shrink-0 rounded-lg shadow-md"

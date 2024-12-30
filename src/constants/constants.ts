@@ -20,7 +20,7 @@ export const PROJECTS: IProjects[] = [
     details:
       'Позволяет создать профиль через Firebase и добавлять в него фотографии (используются Firestore и Redux Toolkit). Для защиты маршрутов используется AuthContext. Фото дня кэшируется на сутки через next/cache. Перед поиском фото показывается подборка фотографий, которая рендерится на сервере (SSR).',
     githubLink: 'https://github.com/TatyanaZakiryanova/NASA-Data',
-    deployLink: '',
+    deployLink: 'https://datanasa.netlify.app/',
   },
   {
     title: 'Bookshelf',
