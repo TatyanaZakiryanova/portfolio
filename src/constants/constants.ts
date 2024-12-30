@@ -1,20 +1,20 @@
 import { IIcons, IProjects } from './types';
 
 export const ICONS: IIcons[] = [
-  { src: 'src/assets/icons/js-icon.svg', alt: 'JavaScript Logo', title: 'JavaScript' },
-  { src: 'src/assets/icons/ts-icon.svg', alt: 'TypeScript Logo', title: 'TypeScript' },
-  { src: 'src/assets/icons/react-icon.svg', alt: 'React Logo', title: 'React' },
-  { src: 'src/assets/icons/redux-icon.svg', alt: 'Redux Logo', title: 'Redux' },
-  { src: 'src/assets/icons/next-icon.svg', alt: 'Next.js Logo', title: 'Next.js' },
-  { src: 'src/assets/icons/sass-icon.svg', alt: 'Sass Logo', title: 'Sass' },
-  { src: 'src/assets/icons/tailwind-icon.svg', alt: 'Tailwind CSS Logo', title: 'Tailwind CSS' },
-  { src: 'src/assets/icons/material-ui-icon.svg', alt: 'Material-UI Logo', title: 'Material UI' },
+  { src: '/assets/icons/js-icon.svg', alt: 'JavaScript Logo', title: 'JavaScript' },
+  { src: '/assets/icons/ts-icon.svg', alt: 'TypeScript Logo', title: 'TypeScript' },
+  { src: '/assets/icons/react-icon.svg', alt: 'React Logo', title: 'React' },
+  { src: '/assets/icons/redux-icon.svg', alt: 'Redux Logo', title: 'Redux' },
+  { src: '/assets/icons/next-icon.svg', alt: 'Next.js Logo', title: 'Next.js' },
+  { src: '/assets/icons/sass-icon.svg', alt: 'Sass Logo', title: 'Sass' },
+  { src: '/assets/icons/tailwind-icon.svg', alt: 'Tailwind CSS Logo', title: 'Tailwind CSS' },
+  { src: '/assets/icons/material-ui-icon.svg', alt: 'Material-UI Logo', title: 'Material UI' },
 ];
 
 export const PROJECTS: IProjects[] = [
   {
     title: 'NASA-Data',
-    previewSrc: 'src/assets/projects/nasadata-preview.png',
+    previewSrc: '/assets/projects/nasadata-preview.png',
     description: 'Приложение с фотографиями NASA.',
     technologies: 'TS, React, Redux Toolkit, Next.js, Firebase, Tailwind CSS, NASA API',
     details:
@@ -24,7 +24,7 @@ export const PROJECTS: IProjects[] = [
   },
   {
     title: 'Bookshelf',
-    previewSrc: 'src/assets/projects/bookshelf-preview.png',
+    previewSrc: '/assets/projects/bookshelf-preview.png',
     description: 'Приложение для поиска и просмотра электронных книг.',
     technologies: 'TS, React, Redux Toolkit, Sass, Google Books API',
     details:
@@ -34,7 +34,7 @@ export const PROJECTS: IProjects[] = [
   },
   {
     title: 'Currency converter',
-    previewSrc: 'src/assets/projects/currency-converter-preview.png',
+    previewSrc: '/assets/projects/currency-converter-preview.png',
     description: 'Конвертер валют.',
     technologies: 'TS, React, Material UI, ExchangeRate-API',
     details:
@@ -44,7 +44,7 @@ export const PROJECTS: IProjects[] = [
   },
   {
     title: 'Tea shop',
-    previewSrc: 'src/assets/projects/teashop-preview.png',
+    previewSrc: '/assets/projects/teashop-preview.png',
     description: 'Интернет-магазин чая.',
     technologies: 'TS, React, Redux Toolkit, Sass',
     details:

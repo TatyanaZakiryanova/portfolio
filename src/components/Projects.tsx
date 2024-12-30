@@ -17,7 +17,7 @@ const Projects = () => {
           {PROJECTS.map((project, index) => (
             <div
               key={project.title}
-              className="flex flex-col items-center gap-6 lg:flex-row lg:items-start"
+              className="flex flex-col items-center gap-8 lg:flex-row lg:items-start"
             >
               <img
                 src={project.previewSrc}
@@ -32,7 +32,7 @@ const Projects = () => {
                   className="mx-auto mt-4 flex items-center justify-center gap-1 lg:mx-0"
                 >
                   <img
-                    src={`${activeIndex === index ? `/src/assets/icons/arrow-up.svg` : '/src/assets/icons/arrow-down.svg'}`}
+                    src={`${activeIndex === index ? `/assets/icons/arrow-up.svg` : '/assets/icons/arrow-down.svg'}`}
                     className={`${activeIndex === index ? '' : 'animate-bounce'} h-4 w-4`}
                   />
                   <span className="text-xs">Подробнее</span>
@@ -48,7 +48,7 @@ const Projects = () => {
                       rel="noopener noreferrer"
                       className="h-14 w-14 hover:animate-[wiggle_1s_ease-in-out_infinite]"
                     >
-                      <img src="src/assets/icons/github-icon.svg" />
+                      <img src="/assets/icons/github-icon.svg" />
                       <span className="text-xs">Github</span>
                     </a>
                   </div>
@@ -59,7 +59,7 @@ const Projects = () => {
                       rel="noopener noreferrer"
                       className="h-14 w-14 hover:animate-[wiggle_1s_ease-in-out_infinite]"
                     >
-                      <img src="src/assets/icons/site-icon.svg" />
+                      <img src="/assets/icons/site-icon.svg" />
                       <span className="text-xs">Сайт</span>
                     </a>
                   </div>

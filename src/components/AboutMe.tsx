@@ -22,7 +22,7 @@ const AboutMe = () => {
             onClick={(e) => scrollToSection(e, 'projects')}
             className="flex flex-col items-center"
           >
-            <img src="/src/assets/icons/arrow-down.svg" className="h-8 w-8 animate-bounce" />
+            <img src="/assets/icons/arrow-down.svg" className="h-8 w-8 animate-bounce" />
             <div>К проектам</div>
           </a>
         </div>

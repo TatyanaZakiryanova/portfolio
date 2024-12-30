@@ -1,4 +1,5 @@
 import { useState } from 'react';
+
 import { scrollToSection } from '../utils';
 import Button from './Button';
 
@@ -10,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky left-0 top-0 z-50 w-full bg-blue-light bg-opacity-95 p-6 backdrop-blur lg:bg-opacity-50">
+    <nav className="sticky left-0 top-0 z-50 w-full rounded-lg bg-blue-light bg-opacity-95 p-6 backdrop-blur lg:bg-opacity-50">
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         <button
           onClick={toggleMenu}
@@ -62,7 +63,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="src/assets/icons/github-icon.svg"
+              src="/assets/icons/github-icon.svg"
               alt="GitHub"
               className="h-16 w-16 hover:animate-[wiggle_1s_ease-in-out_infinite]"
             />
