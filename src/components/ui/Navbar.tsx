@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky left-0 top-0 z-50 w-full bg-blue-light bg-opacity-90 p-6 backdrop-blur lg:bg-opacity-50">
+    <nav className="sticky left-0 top-0 z-50 w-full bg-blue-light bg-opacity-95 p-6 backdrop-blur lg:bg-opacity-50">
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         <button
           onClick={toggleMenu}
@@ -24,7 +24,7 @@ const Navbar = () => {
             isMenuOpen ? 'block' : 'hidden'
           } absolute left-0 right-0 top-full z-10 rounded-lg lg:static lg:block lg:flex lg:w-auto lg:justify-between`}
         >
-          <ul className="flex flex-col items-center space-y-1 rounded-lg bg-blue-light bg-opacity-90 text-text-dark backdrop-blur lg:flex-row lg:space-x-6 lg:space-y-0 lg:bg-transparent lg:bg-opacity-50 lg:backdrop-blur-none">
+          <ul className="flex flex-col items-center space-y-1 rounded-lg bg-blue-light bg-opacity-95 text-text-dark backdrop-blur lg:flex-row lg:space-x-6 lg:space-y-0 lg:bg-transparent lg:bg-opacity-50 lg:backdrop-blur-none">
             <li className="w-full lg:w-auto">
               <a href="#about" onClick={(e) => scrollToSection(e, 'about')}>
                 <Button className="w-full lg:w-auto lg:bg-button-default lg:text-text-light lg:shadow-md">

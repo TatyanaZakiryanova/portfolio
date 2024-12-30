@@ -12,21 +12,24 @@ const Projects = () => {
   return (
     <div className="mx-auto p-10 text-text-dark">
       <h2 className="text-center text-3xl">Проекты</h2>
-      <div className="mt-10 flex items-center">
+      <div className="mt-10 flex items-center justify-center">
         <div className="mt-6 flex flex-col gap-20">
           {PROJECTS.map((project, index) => (
-            <div key={project.title} className="flex gap-6">
+            <div
+              key={project.title}
+              className="flex flex-col items-center gap-6 lg:flex-row lg:items-start"
+            >
               <img
                 src={project.previewSrc}
-                className="h-[260px] w-[600px] flex-shrink-0 rounded-lg shadow-md"
+                className="h-auto w-full flex-shrink-0 rounded-lg object-cover shadow-md lg:w-[600px]"
               />
-              <div>
+              <div className="text-center lg:text-left">
                 <h3 className="text-xl font-bold">{project.title}</h3>
                 <p>{project.description}</p>
                 <p className="mt-2 font-bold">{project.technologies}</p>
                 <button
                   onClick={() => toggleOpenDetails(index)}
-                  className="mt-4 flex items-center gap-1"
+                  className="mx-auto mt-4 flex items-center justify-center gap-1 lg:mx-0"
                 >
                   <img
                     src={`${activeIndex === index ? `/src/assets/icons/arrow-up.svg` : '/src/assets/icons/arrow-down.svg'}`}
@@ -37,7 +40,7 @@ const Projects = () => {
                 <p className={`mt-2 text-sm ${activeIndex === index ? 'block' : 'hidden'}`}>
                   {project.details}
                 </p>
-                <div className="mt-4 flex gap-6">
+                <div className="mt-4 flex justify-center gap-6 lg:justify-start">
                   <div className="flex flex-col text-center">
                     <a
                       href={project.githubLink}
