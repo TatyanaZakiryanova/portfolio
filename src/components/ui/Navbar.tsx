@@ -1,13 +1,31 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import { scrollToSection } from '../utils';
 import Button from './Button';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
+  const menuRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setIsMenuOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const handleLinkClick = () => {
+    setIsMenuOpen(false);
   };
 
   return (
@@ -21,33 +39,34 @@ const Navbar = () => {
         </button>
 
         <div
+          ref={menuRef}
           className={`${
             isMenuOpen ? 'block' : 'hidden'
           } absolute left-0 right-0 top-full z-10 rounded-lg lg:static lg:block lg:flex lg:w-auto lg:justify-between`}
         >
           <ul className="flex flex-col items-center space-y-1 rounded-lg bg-blue-light bg-opacity-95 text-text-dark backdrop-blur lg:flex-row lg:space-x-6 lg:space-y-0 lg:bg-transparent lg:bg-opacity-50 lg:backdrop-blur-none">
-            <li className="w-full lg:w-auto">
+            <li className="w-full lg:w-auto" onClick={handleLinkClick}>
               <a href="#about" onClick={(e) => scrollToSection(e, 'about')}>
                 <Button className="w-full lg:w-auto lg:bg-button-default lg:text-text-light lg:shadow-md">
                   Обо мне
                 </Button>
               </a>
             </li>
-            <li className="w-full lg:w-auto">
+            <li className="w-full lg:w-auto" onClick={handleLinkClick}>
               <a href="#skills" onClick={(e) => scrollToSection(e, 'skills')}>
                 <Button className="w-full lg:w-auto lg:bg-button-default lg:text-text-light lg:shadow-md">
                   Навыки
                 </Button>
               </a>
             </li>
-            <li className="w-full lg:w-auto">
+            <li className="w-full lg:w-auto" onClick={handleLinkClick}>
               <a href="#projects" onClick={(e) => scrollToSection(e, 'projects')}>
                 <Button className="w-full lg:w-auto lg:bg-button-default lg:text-text-light lg:shadow-md">
                   Проекты
                 </Button>
               </a>
             </li>
-            <li className="w-full lg:w-auto">
+            <li className="w-full lg:w-auto" onClick={handleLinkClick}>
               <a href="#contacts" onClick={(e) => scrollToSection(e, 'contacts')}>
                 <Button className="w-full lg:w-auto lg:bg-button-default lg:text-text-light lg:shadow-md">
                   Контакты
