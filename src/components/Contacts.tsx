@@ -1,10 +1,10 @@
 const Contacts = () => {
   return (
-    <div className="mx-auto p-10 text-text-dark">
+    <div className="mx-auto mt-20 p-10 text-text-dark">
       <div className="flex items-center justify-center">
         <div>
           <h2 className="text-center text-3xl">Контакты</h2>
-          <div className="space-around mt-6 flex gap-10">
+          <div className="space-around mt-10 flex gap-10">
             <div className="flex items-center justify-center gap-1">
               <img src="src/assets/icons/phone-icon.svg" alt="Phone" className="h-8 w-8" />
               <div>+7 919 697 02 54</div>

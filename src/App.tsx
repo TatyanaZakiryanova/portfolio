@@ -4,10 +4,10 @@ const App = () => {
   return (
     <div className="flex flex-col">
       <Navbar />
-      <Section id="about" className="min-h-[70vh]">
+      <Section id="about" className="min-h-[80vh]">
         <AboutMe />
       </Section>
-      <Section id="skills" className="min-h-[70vh]">
+      <Section id="skills" className="min-h-[60vh]">
         <Skills />
       </Section>
       <Section id="projects">

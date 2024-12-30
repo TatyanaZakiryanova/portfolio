@@ -12,8 +12,8 @@ const Projects = () => {
   return (
     <div className="mx-auto p-10 text-text-dark">
       <h2 className="text-center text-3xl">Проекты</h2>
-      <div className="flex items-center">
-        <div className="mt-6 flex flex-col gap-12">
+      <div className="mt-10 flex items-center">
+        <div className="mt-6 flex flex-col gap-20">
           {PROJECTS.map((project, index) => (
             <div key={project.title} className="flex gap-6">
               <img
@@ -24,11 +24,15 @@ const Projects = () => {
                 <h3 className="text-xl font-bold">{project.title}</h3>
                 <p>{project.description}</p>
                 <p className="mt-2 font-bold">{project.technologies}</p>
-                <button onClick={() => toggleOpenDetails(index)}>
+                <button
+                  onClick={() => toggleOpenDetails(index)}
+                  className="mt-4 flex items-center gap-1"
+                >
                   <img
                     src={`${activeIndex === index ? `/src/assets/icons/arrow-up.svg` : '/src/assets/icons/arrow-down.svg'}`}
-                    className={`${activeIndex === index ? '' : 'animate-bounce'} mt-4 h-5 w-5`}
+                    className={`${activeIndex === index ? '' : 'animate-bounce'} h-4 w-4`}
                   />
+                  <span className="text-xs">Подробнее</span>
                 </button>
                 <p className={`mt-2 text-sm ${activeIndex === index ? 'block' : 'hidden'}`}>
                   {project.details}

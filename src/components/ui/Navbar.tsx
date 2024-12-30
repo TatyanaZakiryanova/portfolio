@@ -30,7 +30,7 @@ const Navbar = () => {
                 className="h-16 w-16 hover:animate-[wiggle_1s_ease-in-out_infinite]"
               />
             </a>
-            <span className="text-sm">Мой Github</span>
+            <span className="text-sm text-text-dark">Мой Github</span>
           </div>
         </div>
       </div>

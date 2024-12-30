@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <div className="mx-auto p-10 text-text-dark">
       <h2 className="mb-4 text-center text-3xl">Обо мне</h2>
-      <div className="flex flex-col gap-6">
+      <div className="mt-10 flex flex-col gap-6 text-lg">
         <p>
           Меня зовут Татьяна. Я фронтенд-разработчик, увлекаюсь программированием и постоянно
           стремлюсь улучшать свои навыки. Программирование для меня является инструментом познания
