@@ -4,7 +4,7 @@
 
 ## Deployment & Live Demo
 
-[Deploy]()
+[Deploy](https://tatyanazakiryanovaportfolio.netlify.app/)
 
 ## Technologies Used
 
