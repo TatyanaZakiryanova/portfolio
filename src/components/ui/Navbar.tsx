@@ -25,7 +25,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="icons/github-icon.svg"
+                src="src/assets/icons/github-icon.svg"
                 alt="GitHub"
                 className="h-16 w-16 hover:animate-[wiggle_1s_ease-in-out_infinite]"
               />
