@@ -8,20 +8,6 @@ const AboutMe = () => {
             Меня зовут Татьяна. Я фронтенд-разработчик, увлекаюсь программированием и постоянно
             стремлюсь улучшать свои навыки.
           </p>
-          <div className="flex flex-col items-center gap-1">
-            <a
-              href="https://github.com/TatyanaZakiryanova/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/github-icon.svg"
-                alt="GitHub"
-                className="h-20 w-20 hover:animate-[wiggle_1s_ease-in-out_infinite]"
-              />
-            </a>
-            <span className="text-sm">Мой Github</span>
-          </div>
         </div>
       </div>
     </div>

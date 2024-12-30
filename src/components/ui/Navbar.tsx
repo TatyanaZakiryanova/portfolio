@@ -18,6 +18,20 @@ const Navbar = () => {
           <a href="#contacts" onClick={(e) => scrollToSection(e, 'contacts')}>
             <Button>Контакты</Button>
           </a>
+          <div className="absolute right-3 top-3 flex flex-col items-center gap-1">
+            <a
+              href="https://github.com/TatyanaZakiryanova/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/github-icon.svg"
+                alt="GitHub"
+                className="h-16 w-16 hover:animate-[wiggle_1s_ease-in-out_infinite]"
+              />
+            </a>
+            <span className="text-sm">Мой Github</span>
+          </div>
         </div>
       </div>
     </nav>

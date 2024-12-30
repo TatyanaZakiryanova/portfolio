@@ -1,1 +1,1 @@
-export * from './constants';
+export { ICONS } from './constants';
