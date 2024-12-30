@@ -29,7 +29,7 @@ const Section = ({ id, children }: { id: string; children: React.ReactNode }) =>
     <section
       id={id}
       ref={sectionRef}
-      className={`h-screen transform transition-all duration-700 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}
+      className={`h-auto min-h-[80vh] transform transition-all duration-700 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}
     >
       {children}
     </section>
