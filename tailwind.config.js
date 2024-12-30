@@ -32,6 +32,9 @@ export default {
           '50%': { transform: 'rotate(6deg)' },
         },
       },
+      animation: {
+        'scale-up': 'scaleUp 0.3s ease-in-out',
+      },
     },
   },
   plugins: [],

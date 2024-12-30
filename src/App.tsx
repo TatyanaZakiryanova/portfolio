@@ -1,9 +1,4 @@
-import AboutMe from './components/AboutMe';
-import Contacts from './components/Contacts';
-import Projects from './components/Projects';
-import Section from './components/Section';
-import Skills from './components/Skills';
-import Navbar from './components/ui/Navbar';
+import { AboutMe, Contacts, Navbar, Projects, Section, Skills } from './components';
 
 const App = () => {
   return (

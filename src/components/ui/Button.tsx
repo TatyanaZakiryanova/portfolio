@@ -18,7 +18,7 @@ const Button: React.FC<ButtonProps> = ({
   return (
     <button
       onClick={disabled ? undefined : onClick}
-      className={`bg-button-default hover:bg-button-hover disabled:bg-button-disabled text-text-light rounded-lg border-none px-6 py-4 shadow-md transition duration-300 ${className}`}
+      className={`rounded-lg border-none bg-button-default px-6 py-4 text-text-light shadow-md transition duration-300 hover:bg-button-hover disabled:bg-button-disabled ${className}`}
       disabled={disabled}
       type={type}
     >

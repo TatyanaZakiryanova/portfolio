@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const Section = ({ id, children }: { id: string; children: React.ReactNode }) => {
   const [isVisible, setIsVisible] = useState<boolean>(false);
