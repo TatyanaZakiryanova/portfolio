@@ -13,7 +13,7 @@ const Contacts = () => {
             </div>
             <div className="flex items-center justify-center gap-1">
               <img src="/assets/icons/mail-icon.svg" alt="E-mail" className="h-8 w-8" />
-              <a href="https://taZakiryanova@mail.ru" target="_blank" rel="noopener noreferrer">
+              <a href="mailto:taZakiryanova@mail.ru" target="_blank" rel="noopener noreferrer">
                 taZakiryanova@mail.ru
               </a>
             </div>
