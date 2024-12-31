@@ -16,6 +16,32 @@ const AboutMe = () => {
           Firebase. Есть опыт написания юнит-тестов на Jest и React Testing Library.
         </p>
         <p>Сейчас углубляюсь в алгоритмы и структуры данных.</p>
+        <p className="flex gap-10">
+          <div className="flex flex-col items-center gap-2">
+            <a href="https://t.me/l1cht3r" target="_blank" rel="noopener noreferrer">
+              <img
+                src="/assets/icons/tg-icon.svg"
+                alt="Telegram"
+                className="h-16 w-16 hover:animate-[wiggle_1s_ease-in-out_infinite]"
+              />
+            </a>
+            <span className="text-sm text-text-dark">Мой TG</span>
+          </div>
+          <div className="flex flex-col items-center gap-2">
+            <a
+              href="https://github.com/TatyanaZakiryanova/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/assets/icons/github-icon.svg"
+                alt="GitHub"
+                className="h-16 w-16 hover:animate-[wiggle_1s_ease-in-out_infinite]"
+              />
+            </a>
+            <span className="text-sm text-text-dark">Мой Github</span>
+          </div>
+        </p>
         <div className="flex flex-col items-center text-xs">
           <a
             href="#projects"

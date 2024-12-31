@@ -76,18 +76,14 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="absolute right-2 top-2 flex flex-col items-center gap-1 p-2">
-          <a
-            href="https://github.com/TatyanaZakiryanova/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://t.me/l1cht3r" target="_blank" rel="noopener noreferrer">
             <img
-              src="/assets/icons/github-icon.svg"
-              alt="GitHub"
+              src="/assets/icons/tg-icon.svg"
+              alt="Telegram"
               className="h-12 w-12 hover:animate-[wiggle_1s_ease-in-out_infinite]"
             />
           </a>
-          <span className="text-sm text-text-dark">Мой Github</span>
+          <span className="text-sm text-text-dark">Telegram</span>
         </div>
       </div>
     </nav>
