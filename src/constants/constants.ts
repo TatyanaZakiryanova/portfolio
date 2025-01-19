@@ -1,16 +1,15 @@
 import { IIcons, IProjects } from './types';
 
 export const ICONS: IIcons[] = [
-  { src: '/assets/icons/html-icon.svg', alt: 'HTML Logo', title: 'HTML 5' },
-  { src: '/assets/icons/css-icon.svg', alt: 'CSS Logo', title: 'CSS 3' },
-  { src: '/assets/icons/js-icon.svg', alt: 'JavaScript Logo', title: 'JavaScript' },
-  { src: '/assets/icons/ts-icon.svg', alt: 'TypeScript Logo', title: 'TypeScript' },
-  { src: '/assets/icons/react-icon.svg', alt: 'React Logo', title: 'React' },
-  { src: '/assets/icons/redux-icon.svg', alt: 'Redux Logo', title: 'Redux' },
-  { src: '/assets/icons/next-icon.svg', alt: 'Next.js Logo', title: 'Next.js' },
-  { src: '/assets/icons/sass-icon.svg', alt: 'Sass Logo', title: 'Sass' },
-  { src: '/assets/icons/tailwind-icon.svg', alt: 'Tailwind CSS Logo', title: 'Tailwind CSS' },
-  { src: '/assets/icons/material-ui-icon.svg', alt: 'Material-UI Logo', title: 'Material UI' },
+  { iconId: '#icon-html', alt: 'HTML Logo', title: 'HTML 5' },
+  { iconId: '#icon-css', alt: 'CSS Logo', title: 'CSS 3' },
+  { iconId: '#icon-js', alt: 'JavaScript Logo', title: 'JavaScript' },
+  { iconId: '#icon-ts', alt: 'TypeScript Logo', title: 'TypeScript' },
+  { iconId: '#icon-react', alt: 'React Logo', title: 'React' },
+  { iconId: '#icon-redux', alt: 'Redux Logo', title: 'Redux' },
+  { iconId: '#icon-next', alt: 'Next.js Logo', title: 'Next.js' },
+  { iconId: '#icon-sass', alt: 'Sass Logo', title: 'Sass' },
+  { iconId: '#icon-tailwind', alt: 'Tailwind CSS Logo', title: 'Tailwind CSS' },
 ];
 
 export const PROJECTS: IProjects[] = [

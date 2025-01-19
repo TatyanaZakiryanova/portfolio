@@ -31,10 +31,11 @@ const Projects = () => {
                   onClick={() => toggleOpenDetails(index)}
                   className="mx-auto mt-4 flex items-center justify-center gap-1 lg:mx-0"
                 >
-                  <img
-                    src={`${activeIndex === index ? `/assets/icons/arrow-up.svg` : '/assets/icons/arrow-down.svg'}`}
-                    className={`${activeIndex === index ? '' : 'animate-bounce'} h-4 w-4`}
-                  />
+                  <svg className={`${activeIndex === index ? '' : 'animate-bounce'} h-4 w-4`}>
+                    <use
+                      href={`${activeIndex === index ? `assets/icons/sprite.svg#icon-arrow-up` : `assets/icons/sprite.svg#icon-arrow-down`}`}
+                    ></use>
+                  </svg>
                   <span className="text-xs">Подробнее</span>
                 </button>
                 <p className={`mt-2 text-sm ${activeIndex === index ? 'block' : 'hidden'}`}>
@@ -42,24 +43,18 @@ const Projects = () => {
                 </p>
                 <div className="mt-4 flex justify-center gap-6 lg:justify-start">
                   <div className="flex flex-col text-center">
-                    <a
-                      href={project.githubLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="h-14 w-14 hover:animate-[wiggle_1s_ease-in-out_infinite]"
-                    >
-                      <img src="/assets/icons/github-icon.svg" />
+                    <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+                      <svg className="h-14 w-14 hover:animate-[wiggle_1s_ease-in-out_infinite]">
+                        <use href="assets/icons/sprite.svg#icon-github"></use>
+                      </svg>
                       <span className="text-xs">Github</span>
                     </a>
                   </div>
                   <div className="flex flex-col text-center">
-                    <a
-                      href={project.deployLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="h-14 w-14 hover:animate-[wiggle_1s_ease-in-out_infinite]"
-                    >
-                      <img src="/assets/icons/site-icon.svg" />
+                    <a href={project.deployLink} target="_blank" rel="noopener noreferrer">
+                      <svg className="h-14 w-14 hover:animate-[wiggle_1s_ease-in-out_infinite]">
+                        <use href="assets/icons/sprite.svg#icon-site"></use>
+                      </svg>
                       <span className="text-xs">Сайт</span>
                     </a>
                   </div>

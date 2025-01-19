@@ -19,11 +19,9 @@ const AboutMe = () => {
         <p className="flex gap-10">
           <div className="flex flex-col items-center gap-2">
             <a href="https://t.me/l1cht3r" target="_blank" rel="noopener noreferrer">
-              <img
-                src="/assets/icons/tg-icon.svg"
-                alt="Telegram"
-                className="h-16 w-16 hover:animate-[wiggle_1s_ease-in-out_infinite]"
-              />
+              <svg className="h-16 w-16 hover:animate-[wiggle_1s_ease-in-out_infinite]">
+                <use href="assets/icons/sprite.svg#icon-tg"></use>
+              </svg>
             </a>
             <span className="text-sm text-text-dark">Мой TG</span>
           </div>
@@ -33,11 +31,9 @@ const AboutMe = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src="/assets/icons/github-icon.svg"
-                alt="GitHub"
-                className="h-16 w-16 hover:animate-[wiggle_1s_ease-in-out_infinite]"
-              />
+              <svg className="h-16 w-16 hover:animate-[wiggle_1s_ease-in-out_infinite]">
+                <use href="assets/icons/sprite.svg#icon-github"></use>
+              </svg>
             </a>
             <span className="text-sm text-text-dark">Мой Github</span>
           </div>
@@ -48,7 +44,9 @@ const AboutMe = () => {
             onClick={(e) => scrollToSection(e, 'projects')}
             className="flex flex-col items-center"
           >
-            <img src="/assets/icons/arrow-down.svg" className="h-8 w-8 animate-bounce" />
+            <svg className="h-8 w-8 animate-bounce">
+              <use href="assets/icons/sprite.svg#icon-arrow-down"></use>
+            </svg>
             <div>К проектам</div>
           </a>
         </div>

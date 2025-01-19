@@ -77,11 +77,9 @@ const Navbar = () => {
         </div>
         <div className="absolute right-2 top-2 flex flex-col items-center gap-1 p-2">
           <a href="https://t.me/l1cht3r" target="_blank" rel="noopener noreferrer">
-            <img
-              src="/assets/icons/tg-icon.svg"
-              alt="Telegram"
-              className="h-12 w-12 hover:animate-[wiggle_1s_ease-in-out_infinite]"
-            />
+            <svg className="h-12 w-12 hover:animate-[wiggle_1s_ease-in-out_infinite]">
+              <use href="assets/icons/sprite.svg#icon-tg"></use>
+            </svg>
           </a>
           <span className="text-sm text-text-dark">Telegram</span>
         </div>

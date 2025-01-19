@@ -10,7 +10,9 @@ const Skills = () => {
         <div className="mt-20 flex flex-wrap items-center justify-center gap-6">
           {ICONS.map((icon) => (
             <div key={icon.alt} className="group flex flex-col items-center gap-4">
-              <img key={icon.alt} src={icon.src} className={iconClasses} alt={icon.alt} />
+              <svg className={iconClasses}>
+                <use href={`/assets/icons/sprite.svg${icon.iconId}`}></use>
+              </svg>
               <span className="text-lg opacity-0 transition-all duration-500 group-hover:opacity-100">
                 {icon.title}
               </span>

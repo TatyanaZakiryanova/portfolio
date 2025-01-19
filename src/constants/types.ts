@@ -1,5 +1,5 @@
 export interface IIcons {
-  src: string;
+  iconId: string;
   alt: string;
   title: string;
 }
