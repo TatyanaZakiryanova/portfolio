@@ -1,6 +1,8 @@
 import { IIcons, IProjects } from './types';
 
 export const ICONS: IIcons[] = [
+  { src: '/assets/icons/html-icon.svg', alt: 'HTML Logo', title: 'HTML 5' },
+  { src: '/assets/icons/css-icon.svg', alt: 'CSS Logo', title: 'CSS 3' },
   { src: '/assets/icons/js-icon.svg', alt: 'JavaScript Logo', title: 'JavaScript' },
   { src: '/assets/icons/ts-icon.svg', alt: 'TypeScript Logo', title: 'TypeScript' },
   { src: '/assets/icons/react-icon.svg', alt: 'React Logo', title: 'React' },
@@ -51,5 +53,15 @@ export const PROJECTS: IProjects[] = [
       'Для получения списка товаров и управления состоянием используется Redux toolkit. Фильтрация товаров по категориям, цене, названию, рейтингу. Поиск, пагинация, добавление в корзину (localStorage).',
     githubLink: 'https://github.com/TatyanaZakiryanova/tea-shop',
     deployLink: 'https://teaonlinestore.netlify.app/',
+  },
+  {
+    title: 'CRM Dashboard',
+    previewSrc: '/assets/projects/dashboard-preview.png',
+    description: 'CRM дашборд с возможностью сортировки таблицы.',
+    technologies: 'TS, React, Sass',
+    details:
+      'Создан небольшой UI kit для использования в разных проектах. В таблице реализована сортировка по столбцам и поиск.',
+    githubLink: 'https://github.com/TatyanaZakiryanova/crm-dashboard',
+    deployLink: 'https://tatyanazakiryanova.github.io/crm-dashboard/',
   },
 ];

@@ -6,12 +6,6 @@ const Contacts = () => {
           <h2 className="text-center text-3xl">Контакты</h2>
           <div className="mt-10 flex flex-col gap-5 lg:flex-row">
             <div className="flex items-center justify-center gap-1">
-              <img src="/assets/icons/phone-icon.svg" alt="Phone" className="h-6 w-6" />
-              <a href="tel:+79196970254" target="_blank" rel="noopener noreferrer">
-                +7 919 697 02 54
-              </a>
-            </div>
-            <div className="flex items-center justify-center gap-1">
               <img src="/assets/icons/mail-icon.svg" alt="E-mail" className="h-8 w-8" />
               <a href="mailto:taZakiryanova@mail.ru" target="_blank" rel="noopener noreferrer">
                 taZakiryanova@mail.ru
