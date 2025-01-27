@@ -14,13 +14,16 @@ const Contacts = () => {
               </a>
             </div>
             <div className="flex items-center justify-center gap-1">
+              <a href="tel:+79196970254">+7 919 697 02 54</a>
+            </div>
+            {/*<div className="flex items-center justify-center gap-1">
               <svg className="h-8 w-8">
                 <use href="assets/icons/sprite.svg#icon-tg"></use>
               </svg>
               <a href="https://t.me/l1cht3r" target="_blank" rel="noopener noreferrer">
                 Telegram
               </a>
-            </div>
+            </div>*/}
           </div>
         </div>
       </div>
