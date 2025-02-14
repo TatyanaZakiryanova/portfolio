@@ -5,17 +5,16 @@ const AboutMe = () => {
     <div className="mx-auto p-10 text-text-dark">
       <h2 className="mb-4 text-center text-3xl">Обо мне</h2>
       <div className="mt-10 flex flex-col gap-6 text-lg">
-        <p>
+        <p className="mt-4 text-xl md:mt-0">
           Меня зовут Татьяна. Я фронтенд-разработчик, увлекаюсь программированием и постоянно
-          стремлюсь улучшать свои навыки. Программирование для меня является инструментом познания
-          мира.
+          стремлюсь улучшать свои навыки.
         </p>
         <p>
           Я пишу SPA на стеке JS/TS, React, Redux Toolkit. Работаю с Sass, Tailwind CSS, Material
           UI. Знакома с Next.js и серверным рендерингом, проводила регистрацию и авторизацию через
           Firebase. Есть опыт написания юнит-тестов на Jest и React Testing Library.
         </p>
-        <p>Сейчас углубляюсь в алгоритмы и структуры данных.</p>
+        <p>Сейчас знакомлюсь с Node.js.</p>
         <p className="flex gap-10">
           {/*<div className="flex flex-col items-center gap-2">
             <a href="https://t.me/l1cht3r" target="_blank" rel="noopener noreferrer">

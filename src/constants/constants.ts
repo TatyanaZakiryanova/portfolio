@@ -25,7 +25,7 @@ export const PROJECTS: IProjects[] = [
   },
   {
     title: 'Bookshelf',
-    previewSrc: '/assets/projects/bookshelf-preview.png',
+    previewSrc: '/assets/projects/bookshelf_preview.png',
     description: 'Приложение для поиска и просмотра электронных книг.',
     technologies: 'TS, React, Redux Toolkit, Sass, Google Books API',
     details:
@@ -45,13 +45,23 @@ export const PROJECTS: IProjects[] = [
   },
   {
     title: 'Tea shop',
-    previewSrc: '/assets/projects/teashop-preview.png',
+    previewSrc: '/assets/projects/teashop_preview.png',
     description: 'Интернет-магазин чая.',
     technologies: 'TS, React, Redux Toolkit, Sass',
     details:
       'Для получения списка товаров и управления состоянием используется Redux toolkit. Фильтрация товаров по категориям, цене, названию, рейтингу. Поиск, пагинация, добавление в корзину (localStorage).',
     githubLink: 'https://github.com/TatyanaZakiryanova/tea-shop',
     deployLink: 'https://teaonlinestore.netlify.app/',
+  },
+  {
+    title: 'Weather App',
+    previewSrc: '/assets/projects/weatherapp_preview.png',
+    description: 'Приложение погоды.',
+    technologies: 'TS, React, OpenWeatherMap-API',
+    details:
+      'Приложение погоды с динамической сменой иконок. Запрашивает геолокацию пользователя для определения погоды. Тестирование компонентов на Jest и React Testing Library.',
+    githubLink: 'https://github.com/TatyanaZakiryanova/weather-app',
+    deployLink: 'https://tatyanazakiryanova.github.io/weather-app/',
   },
   {
     title: 'CRM Dashboard',
