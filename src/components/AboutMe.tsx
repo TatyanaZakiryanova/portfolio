@@ -16,14 +16,14 @@ const AboutMe = () => {
         </p>
         <p>Сейчас знакомлюсь с Node.js.</p>
         <p className="flex gap-10">
-          {/*<div className="flex flex-col items-center gap-2">
-            <a href="https://t.me/l1cht3r" target="_blank" rel="noopener noreferrer">
+          <div className="flex flex-col items-center gap-2">
+            <a href="https://t.me/tzaranova" target="_blank" rel="noopener noreferrer">
               <svg className="h-16 w-16 hover:animate-[wiggle_1s_ease-in-out_infinite]">
                 <use href="assets/icons/sprite.svg#icon-tg"></use>
               </svg>
             </a>
             <span className="text-sm text-text-dark">Мой TG</span>
-          </div>*/}
+          </div>
           <div className="flex flex-col items-center gap-2">
             <a
               href="https://github.com/TatyanaZakiryanova/"
