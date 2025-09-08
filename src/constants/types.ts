@@ -11,5 +11,5 @@ export interface IProjects {
   technologies: string;
   details: string;
   githubLink: string;
-  deployLink: string;
+  deployLink?: string;
 }

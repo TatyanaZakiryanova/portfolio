@@ -1,4 +1,3 @@
-// Функция для скроллинга с учётом offset (высоты Navbar)
 export const scrollToSection = (
   event: React.MouseEvent<HTMLAnchorElement, MouseEvent>,
   targetId: string,

@@ -9,18 +9,19 @@ const Contacts = () => {
               <svg className="h-8 w-8">
                 <use href="assets/icons/sprite.svg#icon-mail"></use>
               </svg>
-              <a href="mailto:taZakiryanova@mail.ru" target="_blank" rel="noopener noreferrer">
-                taZakiryanova@mail.ru
+              <a
+                href="mailto:zakiryanova.webdev@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                zakiryanova.webdev@gmail.com
               </a>
-            </div>
-            <div className="flex items-center justify-center gap-1">
-              <a href="tel:+79196970254">+7 919 697 02 54</a>
             </div>
             <div className="flex items-center justify-center gap-1">
               <svg className="h-8 w-8">
                 <use href="assets/icons/sprite.svg#icon-tg"></use>
               </svg>
-              <a href="https://t.me/tzaranova" target="_blank" rel="noopener noreferrer">
+              <a href="https://t.me/wav3_01" target="_blank" rel="noopener noreferrer">
                 Telegram
               </a>
             </div>

@@ -5,19 +5,26 @@ const AboutMe = () => {
     <div className="mx-auto p-10 text-text-dark">
       <h2 className="mb-4 text-center text-3xl">Обо мне</h2>
       <div className="mt-10 flex flex-col gap-6 text-lg">
-        <p className="mt-4 text-xl md:mt-0">
-          Меня зовут Татьяна. Я фронтенд-разработчик, увлекаюсь программированием и постоянно
-          стремлюсь улучшать свои навыки.
-        </p>
-        <p>
-          Я пишу SPA на стеке JS/TS, React, Redux Toolkit. Работаю с Sass, Tailwind CSS, Material
-          UI. Знакома с Next.js и серверным рендерингом, проводила регистрацию и авторизацию через
-          Firebase. Есть опыт написания юнит-тестов на Jest и React Testing Library.
-        </p>
-        <p>Сейчас знакомлюсь с Node.js.</p>
-        <p className="flex gap-10">
+        <div className="mt-4 text-xl md:mt-0">
+          <div className="flex items-center">
+            <img src="/assets/photo.png" className="h-44 w-44" />
+            <p className="ml-4 text-2xl font-bold">
+              Меня зовут Татьяна. Я fullstack-разработчик на Node / React.
+            </p>
+          </div>
+        </div>
+        <div>
+          Разрабатываю API на Node.js c Express, Nest.js. Использую ORM для работы с PostgreSQL,
+          MongoDB. Есть опыт создания полноценных fullstack-приложений.
+        </div>
+        <div>
+          Создаю SPA на стеке JS/TS, React, Redux Toolkit. Работаю с Next.js и серверным
+          рендерингом, проводила регистрацию и авторизацию через Firebase. Есть опыт работы с Sass,
+          Tailwind CSS, Material UI.
+        </div>
+        <div className="flex gap-10">
           <div className="flex flex-col items-center gap-2">
-            <a href="https://t.me/tzaranova" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/wav3_01" target="_blank" rel="noopener noreferrer">
               <svg className="h-16 w-16 hover:animate-[wiggle_1s_ease-in-out_infinite]">
                 <use href="assets/icons/sprite.svg#icon-tg"></use>
               </svg>
@@ -36,7 +43,7 @@ const AboutMe = () => {
             </a>
             <span className="text-sm text-text-dark">Мой Github</span>
           </div>
-        </p>
+        </div>
         <div className="flex flex-col items-center text-xs">
           <a
             href="#projects"

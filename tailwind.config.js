@@ -21,8 +21,8 @@ export default {
 
         button: {
           light: 'rgb(173, 216, 230)',
-          default: 'rgb(70, 130, 180)',
-          hover: 'rgb(115, 170, 215)',
+          default: 'rgba(89, 134, 172, 1)',
+          hover: 'rgba(128, 168, 201, 1)',
           disabled: 'rgb(190, 190, 190)',
         },
       },

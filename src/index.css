@@ -6,7 +6,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  background: linear-gradient(to bottom, rgb(245, 245, 245), rgb(173, 216, 230));
+  background: linear-gradient(to bottom, rgb(245, 245, 245), rgba(180, 206, 215, 1));
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

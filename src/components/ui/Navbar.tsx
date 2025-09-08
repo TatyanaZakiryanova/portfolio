@@ -75,7 +75,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="absolute right-2 top-2 flex flex-col items-center gap-1 p-2">
-          <a href="https://t.me/tzaranova" target="_blank" rel="noopener noreferrer">
+          <a href="https://t.me/wav3_01" target="_blank" rel="noopener noreferrer">
             <svg className="h-12 w-12 hover:animate-[wiggle_1s_ease-in-out_infinite]">
               <use href="assets/icons/sprite.svg#icon-tg"></use>
             </svg>

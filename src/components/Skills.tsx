@@ -1,7 +1,7 @@
 import { ICONS } from '../constants';
 
 const Skills = () => {
-  const iconClasses = 'w-24 h-28 transition-transform duration-300 hover:scale-110 sm:w-28';
+  const iconClasses = 'w-20 h-24 transition-transform duration-300 hover:scale-110 sm:w-24';
 
   return (
     <div className="mx-auto p-10 text-text-dark">
